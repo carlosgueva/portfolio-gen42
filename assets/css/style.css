@@ -942,3 +942,28 @@ html {
 		}
 	}
 }
+
+
+
+#contact .section__title::before {
+	content: "\1F4DD"; 
+	font-size: 30px;
+	margin-right: 10px;
+}
+  
+#contact .section__title::after {
+	content: "\1F4DD"; 
+	font-size: 30px;
+	margin-left: 10px;
+}
+  
+.projects__image img {
+    filter: brightness(0.5); /* Imagen completamente negra */
+    transition: filter 0.5s ease-in-out;
+}
+
+.projects__image:hover img {
+    filter: brightness(1); /* Imagen vuelve a su brillo normal */
+}
+
+  

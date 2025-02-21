@@ -958,12 +958,12 @@ html {
 }
   
 .projects__image img {
-    filter: brightness(0.5); /* Imagen completamente negra */
+    filter: brightness(0.5);
     transition: filter 0.5s ease-in-out;
 }
 
 .projects__image:hover img {
-    filter: brightness(1); /* Imagen vuelve a su brillo normal */
+    filter: brightness(1);
 }
 
   

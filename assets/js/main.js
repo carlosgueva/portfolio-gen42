@@ -1,10 +1,11 @@
-import parallax from './components/parallax.js';
-import activeMenu from './components/selected_menu.js';
-import updateCurrentYear from './helpers/date_updater.js';
-import changeLanguage from './helpers/language.js';
-import loader from './helpers/loader.js';
-import resetToHome from './helpers/reload_page.js';
-import sendEmail from './helpers/send_form.js';
+import parallax from "./components/parallax.js";
+import activeMenu from "./components/selected_menu.js";
+import updateCurrentYear from "./helpers/date_updater.js";
+import changeLanguage from "./helpers/language.js";
+import loader from "./helpers/loader.js";
+import resetToHome from "./helpers/reload_page.js";
+import sendEmail from "./helpers/send_form.js";
+import darkmode from "./helpers/darkmode.js";
 
 loader();
 resetToHome();
@@ -13,3 +14,4 @@ parallax();
 activeMenu();
 sendEmail();
 changeLanguage();
+darkmode();
